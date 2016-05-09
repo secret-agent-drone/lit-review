@@ -1,0 +1,188 @@
+@article{Hoecker:2012np,
+      author         = "Hoecker, Andreas",
+      title          = "{Charged-Lepton Flavour Physics}",
+      journal        = "Pramana",
+      volume         = "79",
+      year           = "2012",
+      pages          = "1141-1167",
+      doi            = "10.1007/s12043-012-0422-2",
+      eprint         = "1201.5093",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1201.5093;%%"
+}
+
+@article{Sierra:2014nqa,
+      author         = "Aristizabal Sierra, D. and Vicente, A.",
+      title          = "{Explaining the CMS Higgs flavor violating decay excess}",
+      journal        = "Phys. Rev.",
+      volume         = "D90",
+      year           = "2014",
+      number         = "11",
+      pages          = "115004",
+      doi            = "10.1103/PhysRevD.90.115004",
+      eprint         = "1409.7690",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1409.7690;%%"
+}
+
+@article{Ishiwata:2015cga,
+      author         = "Ishiwata, Koji and Ligeti, Zoltan and Wise, Mark B.",
+      title          = "{New Vector-Like Fermions and Flavor Physics}",
+      journal        = "JHEP",
+      volume         = "10",
+      year           = "2015",
+      pages          = "027",
+      doi            = "10.1007/JHEP10(2015)027",
+      eprint         = "1506.03484",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CALT-TH-2015-029, KANAZAWA-15-07",
+      SLACcitation   = "%%CITATION = ARXIV:1506.03484;%%"
+}
+
+@article{CMS:2014xfa,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{Observation of the rare $B^0_s\to\mu^+\mu^-$ decay from
+                        the combined analysis of CMS and LHCb data}",
+      collaboration  = "LHCb, CMS",
+      journal        = "Nature",
+      volume         = "522",
+      year           = "2015",
+      pages          = "68-72",
+      doi            = "10.1038/nature14474",
+      eprint         = "1411.4413",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2014-220, CMS-BPH-13-007, LHCB-PAPER-2014-049",
+      SLACcitation   = "%%CITATION = ARXIV:1411.4413;%%"
+}
+
+@article{Hayasaka:2010np,
+      author         = "Hayasaka, K. and others",
+      title          = "{Search for Lepton Flavor Violating Tau Decays into Three
+                        Leptons with 719 Million Produced Tau+Tau- Pairs}",
+      journal        = "Phys. Lett.",
+      volume         = "B687",
+      year           = "2010",
+      pages          = "139-143",
+      doi            = "10.1016/j.physletb.2010.03.037",
+      eprint         = "1001.3221",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1001.3221;%%"
+}
+
+@article{Harnik:2012pb,
+      author         = "Harnik, Roni and Kopp, Joachim and Zupan, Jure",
+      title          = "{Flavor Violating Higgs Decays}",
+      journal        = "JHEP",
+      volume         = "03",
+      year           = "2013",
+      pages          = "026",
+      doi            = "10.1007/JHEP03(2013)026",
+      eprint         = "1209.1397",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-12-498-T",
+      SLACcitation   = "%%CITATION = ARXIV:1209.1397;%%"
+}
+
+@inproceedings{Abe:2006sf,
+      author         = "Abe, Kazuo and others",
+      title          = "{A New Search for tau -> mu gamma and tau -> e gamma
+                        Decays at Belle}",
+      booktitle      = "{Proceedings of the 33rd International Conference on High
+                        Energy Physics (ICHEP '06)}",
+      collaboration  = "Belle",
+      url            = "https://inspirehep.net/record/727064/files/arXiv:hep-ex_0609049.pdf",
+      year           = "2006",
+      eprint         = "hep-ex/0609049",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "BELLE-CONF-0653",
+      SLACcitation   = "%%CITATION = HEP-EX/0609049;%%"
+}
+
+@article{Hayasaka:2005xw,
+      author         = "Hayasaka, K. and others",
+      title          = "{Search for tau ---> e gamma decay at BELLE}",
+      collaboration  = "Belle",
+      journal        = "Phys. Lett.",
+      volume         = "B613",
+      year           = "2005",
+      pages          = "20-28",
+      doi            = "10.1016/j.physletb.2005.03.028",
+      eprint         = "hep-ex/0501068",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "BELLE-PREPRINT-2005-2, KEK-PREPRINT-2004-93",
+      SLACcitation   = "%%CITATION = HEP-EX/0501068;%%"
+}
+
+@article{Ohshima:2007zz,
+      author         = "Ohshima, T.",
+      title          = "{Study of LFV in tau decay at Belle}",
+      booktitle      = "{Tau lepton physics. Proceedings, 9th International
+                        Workshop, TAU'06, Pisa, Italy, September 19-22, 2006}",
+      collaboration  = "Belle",
+      journal        = "Nucl. Phys. Proc. Suppl.",
+      volume         = "169",
+      year           = "2007",
+      pages          = "174-185",
+      doi            = "10.1016/j.nuclphysbps.2007.02.116",
+      note           = "[,174(2007)]",
+      SLACcitation   = "%%CITATION = NUPHZ,169,174;%%"
+}
+
+@article{Khachatryan:2015kon,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{Search for Lepton-Flavour-Violating Decays of the Higgs
+                        Boson}",
+      collaboration  = "CMS",
+      journal        = "Phys. Lett.",
+      volume         = "B749",
+      year           = "2015",
+      pages          = "337-362",
+      doi            = "10.1016/j.physletb.2015.07.053",
+      eprint         = "1502.07400",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-HIG-14-005, CERN-PH-EP-2015-027",
+      SLACcitation   = "%%CITATION = ARXIV:1502.07400;%%"
+}
+
+@inproceedings{Miyazaki:2011ag,
+      author         = "Miyazaki, Yoshiyuki",
+      title          = "{Search for Lepton Flavor Violating $\tau$ Decays at
+                        B-factories}",
+      booktitle      = "{Flavor physics and CP violation. Proceedings, 9th
+                        International Conference, FPCP 2011, Maale HaChamisha,
+                        Israel, May 23-27, 2011}",
+      url            = "https://inspirehep.net/record/927051/files/arXiv:1109.2377.pdf",
+      year           = "2011",
+      eprint         = "1109.2377",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "NTLP-2011-03",
+      SLACcitation   = "%%CITATION = ARXIV:1109.2377;%%"
+}
+
+@article{Hayasaka:2007vc,
+      author         = "Hayasaka, K. and others",
+      title          = "{New search for tau ---> mu gamma and tau ---> e gamma
+                        decays at Belle}",
+      collaboration  = "Belle",
+      journal        = "Phys. Lett.",
+      volume         = "B666",
+      year           = "2008",
+      pages          = "16-22",
+      doi            = "10.1016/j.physletb.2008.06.056",
+      eprint         = "0705.0650",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "BELLE-PREPRINT-2007-6, KEK-PREPRINT-2006-69",
+      SLACcitation   = "%%CITATION = ARXIV:0705.0650;%%"
+}
+

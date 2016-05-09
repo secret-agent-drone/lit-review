@@ -1,0 +1,147 @@
+\documentclass[a4paper]{article} % A4 paper and 11pt font size
+
+\usepackage{braket}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{tikz}
+%\usepackage{tikz-feynman}
+%\usepackage{pgfornament}
+\usepackage{pgfplots}
+\usepackage{pgffor}
+\usepackage[version-1-compatibility]{siunitx}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{gensymb}
+\usepackage{framed}
+\usepackage{cancel}
+\usepackage{slashed}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{geometry}
+\usepackage{yfonts}
+\usepackage{calc}
+\usepackage{cite}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{1em}
+\newcommand{\goth}[1]{{\Huge\textfrak{#1}}}
+\renewcommand{\baselinestretch}{1.1}
+
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=28mm,
+ right=28mm,
+ top=30mm,
+ bottom=40mm,
+ }
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+
+\pagenumbering{arabic}
+\begin{document}
+\pagestyle{empty}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{titlepage}
+
+    \begin{center}
+        %\textsc{\large SN: 587623}
+        \vspace*{5cm}
+
+        %\pgfornament[width = 0.9\textwidth, symmetry=v]{88}\\[0.75cm]
+        \HRule \\[0.75cm]
+        \huge \textbf{Literature Review} \\[0.5cm]
+		\Huge \textbf{An upper bound on the decay $\bm{\tau\to\mu \gamma}$ from Belle}\\[0.5cm]
+        %\pgfornament[width = 0.9\linewidth]{88}\\[1.5cm]
+        \HRule \\[1.5cm]
+        \begin{minipage}{0.4\textwidth}
+        \begin{center}
+
+        \large By \\[0.75cm]
+        \huge Braden \scshape Moore \\[0.5cm]
+        \normalsize \normalfont Master of Science \\
+        The University of Melbourne \\
+
+        \end{center}
+        \end{minipage}
+
+        \vfill
+
+        \large \today
+    \end{center}
+
+
+\newpage
+\end{titlepage}
+%----------------------------------------------------------------------------------------
+\pagestyle{empty}
+\tableofcontents
+\newpage
+
+\pagestyle{fancy}
+\pagenumbering{arabic}
+\rfoot{\textsc{Braden Moore, 587623}}
+\lfoot{\textsc{\today}}
+\rhead{\textsc{Literature Review: $\tau\to\mu\gamma$}}
+\setcounter{page}{1}
+\section{Introduction}
+\begin{enumerate}
+\item General introduction
+\item Brief overview of SM
+\item Motivation for search
+\end{enumerate}
+
+\section{Leptoflavour Changing Processes}
+\begin{enumerate}
+\item Look up papers/talk to John bc he knows leptoquarks ???
+\item Feynman diagram; SM vs. BSM
+\end{enumerate}
+
+\section{Other Searches}
+\begin{enumerate}
+\item Belle rules
+\item BaBar drools
+\item LHCb?
+\item Belle 2 future searches
+\end{enumerate}
+
+\section{References}
+\begin{enumerate}
+\item Belle papers
+\item Charged-Lepton Flavour Physics (CERN): 1201.5093v2
+\item Explaining the CMS Higgs flavor violating decay excess: 1409.7890v2
+\item Flavor Violating Higgs Decays: 1209.1397v2
+\item New Search for $\tau\to\mu\gamma$ etc. (Belle): 0705.0650v2
+\item An Upper Bound on the Decay $\tau\to\mu\gamma$ from Belle: arXiv:hep-ex/0310029v3
+\end{enumerate}
+
+
+
+
+
+\pagebreak
+
+%-----------------------------------------
+\bibliographystyle{plain}
+\bibliography{refs.bib}
+\end{document}
+
+
+
+
+
+
+
