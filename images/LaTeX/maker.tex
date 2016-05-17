@@ -2,7 +2,6 @@
 
 
 \usepackage{tikz}
-\usepackage{tikz-feynman}
 
 
 %%%%%%%%%%%%%%%CATE'S PREAMBLE BIT%%%%%%%%%%%%%%%%
@@ -35,6 +34,7 @@
         decoration={coil,amplitude=4pt, segment length=5pt}},
     scalar/.style={dashed,draw=black, postaction={decorate},
         decoration={markings,mark=at position .55 with {\arrow[draw=black]{>}}}},
+    neutrino/.style={dashed,draw=black},
     scalarbar/.style={dashed,draw=black, postaction={decorate},
         decoration={markings,mark=at position .55 with {\arrow[draw=black]{<}}}},
     scalarnoarrow/.style={dashed,draw=black},
@@ -55,6 +55,10 @@
 
 \tikzset{>=latex}
 
+\tikzset{cross/.style={cross out, draw, minimum size=2*(#1-\pgflinewidth),
+			inner sep=0pt, outer sep=0pt}}
+			
+\tikzset{snake it/.style={decorate, decoration=snake}}
 
 \begin{document}
 \pagestyle{empty}
@@ -128,6 +132,34 @@
 \end{figure}
 
 
+\newpage
+
+\begin{figure}[h]
+\centering
+{\begin{tikzpicture}[line width=0.7 pt, xscale = 1.2, yscale = 1.4]
+%-------------------
+%LEFT SIDE
+\draw [fermion] (0,0)--(1.5,0);
+    \node at (0.75,0.3) {$\tau$};
+\draw[snake it] (3.5,0) arc (0:180:1);
+    \node at (2.55,1.3) {$W$};
+
+\draw [neutrino] (1.5,0)--(3.5,0);
+\draw (2.5,0) node[cross=0.1cm] {};
+    \node at (2,-0.3) {$\nu_{\tau}$};
+    \node at (3,-0.3) {$\nu_{\mu}$};   
+   
+\draw [vector] (3.207,0.707)--(4.5,1.07);
+    \node at (3.707,1.2) {$\gamma$};
+
+%RIGHT SIDE
+\draw [fermion] (3.5,0)--(5,0);
+    \node at (4.25,0.3) {$\mu$};
+   
+
+%------------------------
+\end{tikzpicture}}
+\end{figure}
 
 
 \end{document}
