@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.10)  17 MAY 2016 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.10)  18 MAY 2016 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,6 +561,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 78.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.162 \sigma(e^+ e^- \to \tau^+ \tau^-)=\SI
+                                           {0.919}{nb}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -568,7 +580,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  14788 strings out of 493117
  336552 string characters out of 6135433
- 390284 words of memory out of 5000000
+ 402432 words of memory out of 5000000
  17971 multiletter control sequences out of 15000+600000
  4553 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -579,12 +591,13 @@ ts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb>
-Output written on maker.pdf (2 pages, 59705 bytes).
+mr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb>
+Output written on maker.pdf (2 pages, 69594 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
